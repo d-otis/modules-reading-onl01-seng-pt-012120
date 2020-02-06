@@ -1,5 +1,6 @@
 require_relative './class_methods_module.rb'
 require_relative './dance_module.rb'
+require_relative './fancy_dance.rb'
 
 class Dancer
   # for making ClassMethods section of FancyDance module into our class methods
