@@ -8,7 +8,8 @@ class Kid
   # inherit the methods of the Dance module
   # as *instance* methods
   
-  extend MetaDancing
+  extend FancyDance::ClassMethods
+  include FancyDance::InstanceMethods
   
   attr_accessor :name
   
