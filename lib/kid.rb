@@ -7,6 +7,8 @@ class Kid
   # inherit the methods of the Dance module
   # as *instance* methods
   
+  extend MetaDancing
+  
   attr_accessor :name
   
   def initialize(name)
